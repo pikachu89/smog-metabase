@@ -1,19 +1,19 @@
 # Description: Shell script to run metabase and database
 
-# create directory for database
-mkdir -p ./database
+# # create directory for database
+# mkdir -p ./database
 
-# go to database folder
-cd ./database
+# # go to database folder
+# cd ./database
 
-# if database does not exist, download it
-if [ ! -f weather.db ]; then
-    echo "database.db not found. Downloading..."
-    wget https://github.com/abdulsaboor938/smog-metabase/raw/main/weather.db
-fi
+# # if database does not exist, download it
+# if [ ! -f weather.db ]; then
+#     echo "database.db not found. Downloading..."
+#     wget https://github.com/abdulsaboor938/smog-metabase/raw/main/weather.db
+# fi
 
-# go to previous folder
-cd ..
+# # go to previous folder
+# cd ..
 
 # metabase operations
 
