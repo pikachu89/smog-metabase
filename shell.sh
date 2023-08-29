@@ -1,20 +1,5 @@
 # Description: Shell script to run metabase and database
 
-# # create directory for database
-# mkdir -p ./database
-
-# # go to database folder
-# cd ./database
-
-# # if database does not exist, download it
-# if [ ! -f weather.db ]; then
-#     echo "database.db not found. Downloading..."
-#     wget https://github.com/abdulsaboor938/smog-metabase/raw/main/weather.db
-# fi
-
-# # go to previous folder
-# cd ..
-
 # metabase operations
 
 # going to metabase folder
@@ -28,3 +13,5 @@ fi
 
 # run metabase
 java -jar metabase.jar
+
+# credentials for logging into metabase interface can be found in the credentials.txt file located at the root folder.
